@@ -1,0 +1,54 @@
+
+
+.calcolatrice {
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(6,100px);
+    display: grid;
+    
+}
+
+div {
+    border: 0.3px solid black;
+   
+}
+
+.risultato {
+    grid-column: span 4;
+    grid-row: span 1; 
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 60px;
+}
+
+.singlespace1{
+    background-color: antiquewhite;
+    grid-column: span 1;
+    grid-row: span 1;
+    font-size: 55px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.singlespacecalc {
+    grid-column: span 1;
+    grid-row: span 1;
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uguale {
+    grid-column: span 1;
+    grid-row: span 4;
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
